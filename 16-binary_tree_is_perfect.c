@@ -1,7 +1,6 @@
 #include "binary_trees.h"
-#include <math.h>
 
-/**
+/*/**
  * binary_tree_height - returns the height of a binary tree
  * @tree: pointer to the root of the tree
  * Return: height of the tree
@@ -17,7 +16,7 @@ return ((left_height > right_height ? left_height : right_height) +1);
 }*/
 
 
-/**
+/*/**
  * binary_tree_is_perfect - checks if a binary tree is perfect
  * @tree: pointer to the root of the tree
  * Return: 1 if perfect, 0 otherwise
