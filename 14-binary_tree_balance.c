@@ -23,9 +23,9 @@ return ((left_height > right_height ? left_height : right_height) +1);
 /*Balance Factor=Height of Left Subtree−Height of Right Subtree*/
 int binary_tree_balance(const binary_tree_t *tree)
 {
+int balance_factor;
 if (!tree)
 return (0);
-int balance_factor;
 balance_factor = binary_tree_height(tree->left) -
 	binary_tree_height(tree->right);
 return (balance_factor);
